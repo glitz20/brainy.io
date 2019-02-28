@@ -1,0 +1,562 @@
+.App {
+ 
+}
+
+body {
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+
+.App-intro
+{
+  font-size: large;
+}
+
+
+.nav {
+   
+}
+
+.brand {
+    padding: 0px !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+    
+}
+
+
+.navbox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px !important;
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+  
+    height: 100%;
+}
+
+.navtext {
+    margin: 0% 0% -1.8% 0% !important;
+}
+.navitem {
+    margin-top: 0px !important;
+    padding: 0% 0% -90% 0% !important;
+    margin-bottom: 0px !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-weight:600;
+  
+    
+}
+
+.navborder
+{
+    border-bottom:solid grey 0.4px;
+}
+
+.homeintro {
+    padding: 0% 0% !important;
+    margin: 0.1% 0% !important;
+  
+}
+
+.homepic {
+    padding: 0% 0% !important;
+    margin-top: 0.4% !important;
+}
+
+.hometext {
+    padding: 7% !important;
+    margin: 0% !important;
+    
+}
+
+.homebody {
+    position: relative !important;
+    height: auto !important;
+    
+}
+
+.homeitem {
+   
+    height: auto !important;
+}
+
+.filter {
+    padding: 7% 4% !important;
+    margin: 0% !important;
+    height: 100vh;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+.brainybutton {
+    border-radius: 28px;
+    background-color: #F45C24;
+    color: white;
+    box-shadow: none;
+    border: none;
+    width:140px;
+    height: 50px;
+ 
+}
+
+.imgsection {
+   
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.itemdisplay {
+    height: 150px;
+    width: 80%;
+    margin-top: 7% !important;
+}
+
+.iteminfo {
+    height:18%;
+    width: 100% ;
+    border-bottom: solid grey 2px;
+    padding-left: 1%;
+}
+
+.infobutton {
+    
+    width: auto;
+    background-color: #F45C24;
+    box-shadow: none;
+    border: none;
+    margin-left:10%;
+    color:white;
+    object-position:center;
+   
+   
+}
+
+.tagbutton {
+    width: auto;
+    background-color: #F45C24;
+    box-shadow: none;
+    border-radius:14px;
+    color:white;
+    border:none;
+    margin-right:1%;
+}
+
+.itemquestion {
+    height: 60%;
+    width: 100%;
+}
+
+.itemtags {
+    height: 22%;
+    width: 100%;
+    text-align:center;
+   
+}
+
+
+
+.itemimage {
+ 
+    /*any custom height*/
+}
+
+.itemcontent {
+    padding: 0% !important;
+    margin:  0% !important;
+    
+  
+
+   
+}
+
+.itemtitle {
+    padding: 0%  0% 0% 1%!important;
+    margin: 0%  !important;
+   
+    font-weight: 400;
+    font-size: 23px;
+}
+
+.pageview {
+  
+}
+
+.newbutton {
+    border-radius: 28px;
+    background-color: #F45C24;
+    color: white;
+    box-shadow: none;
+    border: none;
+    width: 140px;
+    height: 50px;
+}
+
+.trendingbutton {
+    background-color: red;
+    color: white;
+    box-shadow: none;
+    border: none;
+    width: auto;
+    height: 25px;
+    float:right;
+}
+
+.completebutton {
+    border-radius: 28px;
+    background-color: #F45C24;
+    color: white;
+    box-shadow: none;
+    border: none;
+    width: 140px;
+    height: 50px;
+}
+
+.ongoingbutton {
+  
+    color: white;
+    box-shadow: none;
+    border: none;
+    width: auto;
+    height: 25px;
+    float: right;
+    background-color: #F45C24; 
+}
+
+.tagbutton{
+
+}
+
+.form-control{
+    width:100%;
+    height:auto;
+}
+
+.editform {
+   
+    
+    border: none;
+    box-shadow: 5px 5px 5px 5px #F0F3F4 ;
+    margin:2% 30% !important;
+    padding: 2% 1% !important;
+    height: auto;
+  
+    
+}
+
+.signform {
+    border: none;
+    box-shadow: 5px 5px 5px 5px #F0F3F4;
+    margin: 2% 30% !important;
+    height: auto;
+    text-align:center;
+}
+
+
+.profiledisplay {
+    border: none;
+    box-shadow: 5px 5px 5px 5px #F0F3F4;
+    margin: auto !important;
+    height: auto;
+    text-align: center;
+    width: 30% !important;
+   
+}
+
+.profilecol{
+    margin:0px !important;
+    padding: 0px !important;
+}
+
+.profilepicture{
+    height:70px;
+    margin:auto;
+   
+}
+
+
+
+
+.profilepic {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.textcontainer{
+    margin: 5% !important;
+    padding: 5% !important;
+
+}
+
+
+.date
+{
+    padding-left:10px;
+}
+
+.aa {
+    float: left;
+    margin: 0px;
+    text-align: left;
+    color: black;
+    
+}
+
+.ab {
+    text-align: right;
+    color: black;
+ 
+}
+
+.row 
+{    
+    margin:0px;
+    padding:0px;
+}
+
+.btn 
+{
+    
+    outline: none !important;
+    border: none !important;
+    -webkit-box-shadow: none !important;
+   
+}
+
+
+.brainybtn{
+   margin:auto;
+}
+
+.btn-linklogo {
+    color: #F45C24 !important;
+    background-color: transparent !important;
+}
+
+
+.btn-link {
+    background-color: #F45C24 !important;
+    border-radius: 3px !important;
+    color: white !important;
+    margin: 0px 5px;
+    padding: 0px 1px;
+}
+
+    .btn-link:hover {
+        -webkit-box-shadow: none !important;
+        box-shadow: 1px 2px #E0E0E0 !important;
+    }
+
+.text-secondary {
+    color: red;
+    
+}
+
+.imageStyle
+{
+    width: 100%;
+    height: 93vh;
+    object-fit: cover;
+    background-size: cover;
+    margin-top: -0.7px;
+    padding-top: 0px
+}
+
+.show-grid {
+   
+   
+    box-shadow: 5px 5px 5px #F0F3F4;
+}
+
+
+.descriptionheader {
+    height: auto;
+    width: 100%;
+    background-color: black;
+    color: white;
+    margin: 0px !important;
+    padding: 0.5% 3% 2% 3% !important;
+}
+
+.destitle {
+    font-size: 30px !important;
+    text-align: center;
+    margin-bottom: 0px !important;
+    padding-top: 1% !important ;
+    padding-bottom: 0px !important;
+  
+}
+
+.desquestion{
+   
+  
+    
+}
+
+.descriptionpic {
+    
+    width: 100%;
+}
+
+.desstatus {
+    width: 70%;
+    margin: auto;
+    margin-bottom: 10px;
+    background-color: dimgrey;
+    color: white;
+    border-radius: 1px 1px;
+    height: 60px;
+    font-size: 18px;
+    vertical-align: middle;
+}
+
+.textbox
+{
+    margin: 2% 14%;
+    
+}
+
+.ql-container {
+    min-height: 20em;
+    border-bottom-left-radius: 0.5em;
+    border-bottom-right-radius: 0.5em;
+    background: #fefcfc;
+}
+
+.editor1
+{
+    height:10%;
+    width:40%;
+}
+
+/*.editor2 {
+    height: 200%;
+    width: 100%;
+}*/
+
+.box1 {
+    width: 80%;
+    color: black;
+    margin: 3% 4%;
+    border: solid grey 1px;
+    height:90% !important;
+
+}
+.ratingbox
+{
+    /*border: solid red 2px;*/
+    height:100% !important;
+    margin:20px 0px 0px 0px !important;
+    padding:0px !important;
+    width:100%;
+    
+  
+}
+
+.textbox1
+{
+  margin:0px !important;
+  padding:0% !important;
+  height:100% !important;
+  width:100%;
+}
+
+.textbox2 {
+    margin: 0px !important;
+    padding: 0% !important;
+    height: 100% !important;
+    
+    resize:none;
+}
+
+
+
+
+.analytics {
+    margin: 1% 3%;
+  
+}
+
+.overview {
+    margin: 0 auto;
+   
+    height: 80px;
+   width:80%;
+    display: flex;
+}
+
+.metrics {
+   
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+    height: 100% !important;
+    margin-left: 1%;
+    margin-right: 1%;
+    box-shadow: 1px 2px #E0E0E0 !important;
+    padding: 5px;
+    object-position: center;
+    text-align: center;
+    display: inline-block;
+    width:23%;
+   
+}
+
+.metorange{
+
+    margin: 0% !important;
+    padding: 0% !important;
+    background-color:orange;
+    border: solid yellow 2px;
+    color:white;
+}
+
+.metblue {
+    margin: 0% !important;
+    padding: 0% !important;
+    background: blue;
+    color: white;
+}
+
+.metpurple {
+    margin: 0% !important;
+    padding: 0% !important;
+    background-color: purple;
+    color: white;
+}
+
+.metgreen {
+    margin: 0% !important;
+    padding: 0% !important;
+    background-color: green;
+    color: white;
+}
+
+.metrow {
+    margin: 0% !important;
+    padding: 0% !important;
+}
+
+.graphs {
+    margin: 3% 4%;
+}
+
+.footer {
+    height: 100px;
+    background-color: #666666;
+    color:white;
+    margin-top:40px;
+    padding: 30px 160px;
+    line-height:0.8;
+}
+
+.footertext{
+    
+
+
+}
